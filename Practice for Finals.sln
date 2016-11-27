@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Integers and Floats", "Inte
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ranged Values - You Win You Lose", "Ranged Values - You Win You Lose\Ranged Values - You Win You Lose.vcxproj", "{AF537677-BA9E-42B6-BB41-E87742159F93}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sphere", "Sphere\Sphere.vcxproj", "{E8E00E74-463B-4773-86E0-67EB0D55763B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{AF537677-BA9E-42B6-BB41-E87742159F93}.Release|x64.Build.0 = Release|x64
 		{AF537677-BA9E-42B6-BB41-E87742159F93}.Release|x86.ActiveCfg = Release|Win32
 		{AF537677-BA9E-42B6-BB41-E87742159F93}.Release|x86.Build.0 = Release|Win32
+		{E8E00E74-463B-4773-86E0-67EB0D55763B}.Debug|x64.ActiveCfg = Debug|x64
+		{E8E00E74-463B-4773-86E0-67EB0D55763B}.Debug|x64.Build.0 = Debug|x64
+		{E8E00E74-463B-4773-86E0-67EB0D55763B}.Debug|x86.ActiveCfg = Debug|Win32
+		{E8E00E74-463B-4773-86E0-67EB0D55763B}.Debug|x86.Build.0 = Debug|Win32
+		{E8E00E74-463B-4773-86E0-67EB0D55763B}.Release|x64.ActiveCfg = Release|x64
+		{E8E00E74-463B-4773-86E0-67EB0D55763B}.Release|x64.Build.0 = Release|x64
+		{E8E00E74-463B-4773-86E0-67EB0D55763B}.Release|x86.ActiveCfg = Release|Win32
+		{E8E00E74-463B-4773-86E0-67EB0D55763B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
