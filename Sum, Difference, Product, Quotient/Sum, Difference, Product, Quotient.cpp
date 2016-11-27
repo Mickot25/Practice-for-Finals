@@ -13,7 +13,7 @@ int main()
 	cout << "The sum of " << i1 << " and " << i2 << " is = " << i1 + i2 << endl;
 	cout << "The difference of " << i1 << " to " << i2 << " is = " << i1 - i2 << endl;
 	cout << "The product of " << i1 << " and " << i2 << " is = " << i1*i2 << endl;
-	cout << "The quotient of " << (i1) << " by " << (i2) << " is = " <<  double (i1) / double (i2) << endl;
+	cout << "The quotient of " << i1 << " by " << i2 << " is = " <<  double (i1) / double (i2) << endl;
 
 	_getch();
 	return 0;
