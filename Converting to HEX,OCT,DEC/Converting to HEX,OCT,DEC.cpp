@@ -1,4 +1,4 @@
-//Create a C++ program that accepts 3 integers and dispalys the first nuember in hexadecimal
+//Create a C++ program that accepts 3 integers and displays the first nuember in hexadecimal
 //the second in octal
 //the third in decimal.
 //Sample dialogue:
