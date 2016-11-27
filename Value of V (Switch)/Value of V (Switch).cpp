@@ -19,6 +19,7 @@ using namespace std;
 int main()
 {
 	int x, y;
+	double V;
 	
 	cout << "Input two integers: "; cin >> x >> y;
 
@@ -26,29 +27,30 @@ int main()
 	{
 	case 1:
 		if (y > 1 && y < 5)
-			cout << setw(10) << setprecision(2) << fixed << "V = " << x*y*z << endl;
+			V = x*y*z;
 
 		else if (y >= 5)
-			cout << setw(10) << setprecision(2) << fixed << "V = " << (x + y) / z << endl;
+			V = (x + y) / z;
 
 		else
-			cout << setw(10) << setprecision(2) << fixed << "V = " << x + y + z << endl;
+			V = x + y + z;
 		break;
 
 	case 2:
 		if (y <= 5)
-			cout << setw(10) << setprecision(2) << fixed << "V = " << fabs((x*y) / z) << endl;
+			V = fabs((x*y) / z);
 
 		else if (y >= 5)
-			cout << setw(10) << setprecision(2) << fixed << "V = " << x + sqrt(double(y) + z) << endl;
+			V = x + sqrt(double(y) + z);
 
 		else
-			cout << setw(10) << setprecision(2) << fixed << "V = " << x + y + z << endl;
+			V = x + y + z;
 		break;
 
-	default: cout << setw(10) << setprecision(2) << fixed << "V = " << x + y + z << endl;
+	default: V = x + y + z;
 		break;
 	}
+	cout << setw(10) << setprecision(2) << fixed << "V = " << V << endl;
 	_getch();
 	return 0;
 }
