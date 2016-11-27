@@ -12,8 +12,8 @@ int main()
 {
 	double r;
 	cout << "Input radius of the sphere: "; cin >> r;
-	cout << "Volume of the sphere = " << (4 * pi * pow(r, 3)) / 3 << endl;
-	cout << "Area of the largest inscribed circle = " << pi*pow(r, 2) << endl;
+	cout << "Volume of the sphere = " << (4.0 * pi * pow(r, 3.0)) / 3.0 << endl;
+	cout << "Area of the largest inscribed circle = " << pi*pow(r, 2.0) << endl;
 
 	_getch();
 	return 0;
