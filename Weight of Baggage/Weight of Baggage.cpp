@@ -14,15 +14,15 @@ using namespace std;
 int main()
 {
 	double weight;
-	cout << "Input weight of baggage in kg: "; cin >> weight;
+	cout << "Input weight of the baggage in kg: "; cin >> weight;
 
-	cout << "Weight of your baggage is: " << weight << " kg" << endl;
+	cout << "The weight of the baggage: " << weight << " kg" << endl;
 
 	if (weight >= 0 && weight <= 7)
-		cout << "Baggage charge: No charge" << endl;
+		cout << "The baggage charge: No charge" << endl;
 
 	else if (weight > 7 && weight < 20)
-		cout << "Baggage charge: P" << 124.75 + (weight - 7)*12.65 << endl;
+		cout << "The baggage charge: P" << 124.75 + (weight - 7)*12.65 << endl;
 
 	else
 		cout << "Baggage charge: P" << 235.25 + (weight - 20)*15.85 << endl;
