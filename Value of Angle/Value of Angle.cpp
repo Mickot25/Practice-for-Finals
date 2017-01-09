@@ -12,7 +12,7 @@ int main()
 	cout << "Input value of angle: "; cin >> angle;
 	cout << "Value of " << angle << " in sine is = " << sin(angle*pi / 180) << endl;
 	cout << "Value of " << angle << " in cosine is = " << cos(angle*pi / 180) << endl;
-	cout << "Value of " << angle << "in tangent is = " << tan(angle*pi / 180) << endl;
+	cout << "Value of " << angle << " in tangent is = " << tan(angle*pi / 180) << endl;
 
 	_getch();
 	return 0;
